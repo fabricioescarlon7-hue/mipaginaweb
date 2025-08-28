@@ -1,39 +1,81 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Página Web</title>
     <style>
+        
+       + {
+           margin: 0;
+           padding: 0;
+           box-sizing: border-box;
+           font-family:, Tahoma, Geneva, Verdana, sans-serif;
+        }
         body {
-            font-family: Arial, sans-serif;
-            margin: 80px;
-            background-color: #d6cce6;
-            padding: 8px;
-        }
-        header {
-            background-color: #af9dce;
-            padding: 10px 0;
-            text-align: center;
-        }
-        main {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
             padding: 20px;
-       
         }
-        h2 {
-            background-color: #84759e;
+        h1, h2, h3 {
+            color: #2c3c50;
+            margin-bottom: 10px;
         }
-        h3 {
-            background-color: #84759e;
-        }  
-        h4 {
-            background-color: #84759e;
-        }                  
-        footer {
-            background-color: #af9dce;
-            padding: 10px 0;
-            text-align: center;
+        p {
+            margin-bottom: 15px;
+            font-size: 16px;
         }
+        button:hover {
+            background-color: #3498db;
+            color: white;
+            border: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .section {
+            margin-bottom: 30px; 
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin_bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        input:focus, texterea:focus {
+            border-color: #3498db;
+            outline: none;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            .container {
+                padding: 15px;
+            }
+        }
+        
     </style>
 </head>
 <body>
@@ -147,3 +189,4 @@
     </footer>
 </body>
 </html>
+
